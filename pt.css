@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(chemistry.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-align: center;
+    padding: 40px;
+
+}
+
+
+table{
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+td{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FOR HOVERING EFFECT */
+
+td.dark-blue:hover{
+    background-color: blue;
+}
+
+td.orange:hover{
+    background-color: orange;
+}
+td.yellow:hover{
+    background-color: yellow;
+}
+
+td.dim-orange:hover{
+    background-color: rgb(212, 153, 75);
+}
+
+td.light-green:hover{
+    background-color: rgb(8, 202, 57);
+}
+
+
+/* FOR BORDER LESS */
+
+.no-border{
+    border: none;
+}
+
+
+/*FOR BACKGROUND COLOR  */
+
+.dark-blue{
+    background-color: #61a3ff;
+    border: 3px solid #1968fa;
+    box-sizing: border-box;
+}
+
+.orange{
+    background-color: #ffc35c;
+    border: 3px solid #e89700;
+    box-sizing: border-box;
+}
+
+.yellow{
+    background-color: #fcfc88;
+    border: 3px solid #cfcf23;
+    box-sizing: border-box;
+}
+
+.dim-orange{
+    background-color: #ffc591;
+    border: 3px solid #db9d01;
+    box-sizing: border-box;
+}
+
+.light-green{
+    background-color: #91ff82;
+    border: 3px solid #0ab85b;
+    box-sizing: border-box;
+}
+
+.purple{
+    background-color: #efa8ff;
+    border: 3px solid #c546d8;
+    box-sizing: border-box;
+}
+
+.black{
+    background-color: #8f8685;
+    border: 3px solid #3d3f44;
+    box-sizing: border-box;
+}
+
+.sky-blue{
+    background-color: #91fff4;
+    border: 3px solid #2e9c93;
+    box-sizing: border-box;
+}
+
+.empty{
+    background-color: #ff6161;
+    border: 3px solid #ec0000;
+    box-sizing: border-box;
+}
